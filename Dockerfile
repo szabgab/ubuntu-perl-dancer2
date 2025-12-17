@@ -1,4 +1,4 @@
-FROM ubuntu:15.10
+FROM ubuntu:25.10
 RUN apt-get update && \
     apt-get -y upgrade && \
     apt-get install -y build-essential && \
